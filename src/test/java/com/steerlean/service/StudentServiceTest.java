@@ -32,7 +32,7 @@ public class StudentServiceTest {
         Mockito.when(mockStudentRepository.findAllStudents()).thenReturn(studentsMaps);
         List<Student> students = studentService.retrieveAllStudents();
         Assert.assertEquals(1, students.size());
-        Assert.assertEquals("1", students.get(0).getId());
+        Assert.assertEquals("2", students.get(0).getId());
     }
 
     @Test
