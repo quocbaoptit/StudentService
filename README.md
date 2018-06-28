@@ -1,4 +1,4 @@
-### Demonstrates Following
+### Demonstrates Following 
 * Spring-boot - Restful
 * Redis - In-memory DB
 * Rest-Assured - Integration rest testing
